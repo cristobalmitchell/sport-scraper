@@ -20,7 +20,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-class espnScraper:
+class sportsScraper:
 	def __init__(self):
 		self.base_url = 'http://www.espn.com'
 		self.sitemap = self.base_url + '/espn/sitemap'
