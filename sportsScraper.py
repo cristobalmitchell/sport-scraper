@@ -7,8 +7,8 @@
 #				league sports available on ESPN.com
 # AUTHOR:		Cristobal Mitchell
 # CREATED:		08/10/2017
-# MODIFIED:		05/21/2020
-# VERSION:		2.0
+# MODIFIED:		05/24/2020
+# VERSION:		2.0.1
 
 # DEBUG FLAG
 debug = False
