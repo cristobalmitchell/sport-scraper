@@ -1,4 +1,4 @@
-# SportsScraper
+# SportScraper
 
 ESPN.com is a great site for gathering statistics about sports teams at both the college and major league level. This repository provides an easy to use interface for pulling data from the ESPN website. 
 
