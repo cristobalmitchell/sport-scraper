@@ -1,6 +1,6 @@
 # SportScraper
 <p align="center">
-    <a href="https://github.com/cristobalmitchell/sports-data-web-scaper">
+    <a href="https://github.com/cristobalmitchell/sports-data-web-scraper">
         <img alt="Release" src="https://img.shields.io/github/v/tag/cristobalmitchell/sports-data-web-scaper?label=release">
     </a>
  </p>
