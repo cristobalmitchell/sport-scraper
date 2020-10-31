@@ -1,4 +1,9 @@
 # SportScraper
+<p align="center">
+    <a href="https://github.com/cristobalmitchell/sports-data-web-scaper">
+        <img alt="Release" src="https://img.shields.io/github/v/tag/cristobalmitchell/sports-data-web-scaper?label=release">
+    </a>
+ </p>
 
 ESPN.com is a great site for gathering statistics about sports teams at both the college and major league level. This repository provides an easy to use interface for pulling data from the ESPN website. 
 
