@@ -1,14 +1,14 @@
 #!/usr/bin/python
 
-# PROGRAM:		ESPN.com Web Scraper
+# PROGRAM:	sport_scraper
 # DESCRIPTION:	This program creates a scraper class object
-#				with various functions for pulling leagues,
-#				teams, schedules, and game data for the major
-#				league sports available on ESPN.com
-# AUTHOR:		Cristobal Mitchell
-# CREATED:		08/10/2017
-# MODIFIED:		05/24/2020
-# VERSION:		2.0.1
+#		with various functions for pulling leagues,
+#		teams, schedules, and game data for the major
+#		league sports available on ESPN.com
+# AUTHOR:	Cristobal Mitchell
+# CREATED:	08/10/2017
+# MODIFIED:	10/31/2020
+# VERSION:	2.0.1
 
 # DEBUG FLAG
 debug = False
@@ -20,18 +20,18 @@ import requests
 from bs4 import BeautifulSoup
 
 
-class sportsScraper:
+class SportScraper:
 	def __init__(self):
 		self.base_url = 'http://www.espn.com'
 		self.sitemap = self.base_url + '/espn/sitemap'
 		self.years = [2016,2017,2018]
 		self.season_types = { 'nfl' : [''],
-							'mlb' : ['/seasontype/1','/seasontype/2/half/1','/seasontype/2/half/2','/seasontype/3'],
-							'nba' : ['/seasontype/1','/seasontype/2','/seasontype/3'],
-							'nhl' : [''], 
-							'college-football' : [''],
-							'mens-college-basketball' : ['']
-							}
+					'mlb' : ['/seasontype/1','/seasontype/2/half/1','/seasontype/2/half/2','/seasontype/3'],
+					'nba' : ['/seasontype/1','/seasontype/2','/seasontype/3'],
+					'nhl' : [''], 
+					'college-football' : [''],
+					'mens-college-basketball' : ['']
+					}
 
 
 	def leagues(self):
