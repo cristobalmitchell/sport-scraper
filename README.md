@@ -21,10 +21,10 @@ pip install sport_scraper
 
 There are many ways to contribute to SportScraper. Here are some of them:
 
-Blog about SportScraper. Tell the world how you’re using SportScraper. This will help newcomers with more examples and will help the SportScraper project to increase its visibility.
-Report bugs and request features by emailing us at <mailto:sportscraperbugs@gmail.com>
-Submit patches for new functionalities and/or bug fixes.
-Answer SportScraper questions at Stack Overflow.
+* Blog about SportScraper. Tell the world how you’re using SportScraper. This will help newcomers with more examples and will help the SportScraper project to increase its visibility.
+* Report bugs and request features by emailing us at <mailto:sportscraperbugs@gmail.com>
+* Submit patches for new functionalities and/or bug fixes.
+* Answer SportScraper questions at Stack Overflow.
 
 ## Disclaimer
 
