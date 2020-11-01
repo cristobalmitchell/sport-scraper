@@ -1,14 +1,18 @@
 # SportScraper
 <p align="center">
-    <a href="https://github.com/cristobalmitchell/sports-data-web-scraper">
-        <img alt="Release" src="https://img.shields.io/github/v/tag/cristobalmitchell/sports-data-web-scaper?label=release">
+    <a href="https://pypi.python.org/pypi/sport-scraper">
+        <img alt="PyPI Version" src="https://img.shields.io/pypi/v/sport-scraper.svg">
     </a>
  </p>
 
 ESPN.com is a great site for gathering statistics about sports teams at both the college and major league level. This repository provides an easy to use interface for pulling data from the ESPN website. 
 
+## Requirements
+* Python 3.6+
+* Works on Linux, Windows, macOS, BSD
+
 ## Installation
-To get started quickly install sport_scraper
+The quick way
 ```
 pip install sport_scraper
 ```
