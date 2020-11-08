@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include MANIFEST.in
+
+
+include sport_scraper/VERSION
+
+recursive-include tests *
+
+global-exclude __pycache__ *.py[cod]
