@@ -251,6 +251,9 @@ class SportScraper:
                     "position": "",
                     "height": "",
                     "weight": "",
+                    "experience": "",
+                    "player_id": "",
+                    "player_name": "",
                 }
                 for i in range(len(headers)):
                     if headers[i]:
@@ -260,6 +263,14 @@ class SportScraper:
                                 row.find_all("td", class_="Table__TD")[i]
                                 .find("a")
                                 .string
+                            )
+                            record["player_id"] = (
+                                row.find_all("td", class_="Table__TD")[i]
+                                .find("a")["href"].split("id/")[-1].split("/")[0]
+                            )
+                            record["player_name"] = (
+                                row.find_all("td", class_="Table__TD")[i]
+                                .find("a")["href"].split("id/")[-1].split("/")[-1]
                             )
                         elif column.lower() == "pos":
                             record["position"] = row.find_all("td", class_="Table__TD")[
@@ -271,6 +282,10 @@ class SportScraper:
                             ].string
                         elif column.lower() == "wt":
                             record["weight"] = row.find_all("td", class_="Table__TD")[
+                                i
+                            ].string
+                        elif column.lower() == "exp":
+                            record["experience"] = row.find_all("td", class_="Table__TD")[
                                 i
                             ].string
 
